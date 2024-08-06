@@ -1,0 +1,33 @@
+{
+	"compilerOptions": {
+		"sourceMap": true,
+		"target": "ESNext",
+		"module": "esnext",
+		"moduleResolution": "node",
+		"declaration": false,
+		"outDir": "dist",
+		"baseUrl": ".",
+		"rootDir": ".",
+		"types": ["node"],
+		"removeComments": true,
+		"strict": true,
+		"inlineSources": true,
+		"sourceRoot": "/",
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"importHelpers": true,
+		"noEmitHelpers": true,
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"skipDefaultLibCheck": true
+	},
+	"exclude": [
+		"node_modules",
+		"migrations",
+		"environment",
+		"dist",
+		"build"
+	]
+}
